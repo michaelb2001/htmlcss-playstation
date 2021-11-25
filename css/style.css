@@ -73,3 +73,8 @@ li.dropdown:hover .dropdown-menu{
 .bright:hover>img{
     filter: opacity(100%);
 }
+
+
+.assoluto-hover:hover{
+    transform: translateY(-15px);
+}
