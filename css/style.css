@@ -1,0 +1,51 @@
+.header-top{
+    background-color: black;
+}
+
+.header-top img{
+    width:150px;
+}
+
+.header-bottom{
+    background-color: white;
+}
+
+.nav-link{
+    color: black!important;
+    cursor: pointer;
+}
+
+.nav-link i{
+    color: rgb(160, 160, 160)!important;
+}
+
+
+.div-onclick{
+    display: block;
+    background-color: white;
+    color: black;
+    height: 150px;
+}
+
+.nav-link:active .div-onclick{
+    display: block;
+}
+
+.play{
+    display: inline-block;
+}
+
+.play img{
+    width: 50px;
+}
+
+.jumbo{
+    background-image: url(../img/jumbo-bg.png);
+    background-size: cover;
+    background-position: top;
+    height: 600px;
+}
+
+.text img{
+    width: 30%;
+}
