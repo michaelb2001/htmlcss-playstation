@@ -1,9 +1,15 @@
+
+img{
+    width: 100%;
+    border-radius: 25px;
+}
 .header-top{
     background-color: black;
 }
 
 .header-top img{
     width:150px;
+    padding:5px;
 }
 
 .header-bottom{
@@ -42,7 +48,7 @@
 }
 
 .text img{
-    width: 90%;
+    width: 50%;
 }
 
 .height-100{
@@ -51,4 +57,19 @@
 
 .btn:hover{
     border-style: inset 1px solid black;
+}
+
+li.dropdown:hover .dropdown-menu{
+    display: block;
+    position:fixed;
+    width: 100%;
+    left: 0;
+}
+
+.bright{
+    filter: opacity(50%);
+}
+
+.bright:hover{
+    filter: opacity(100%);
 }
