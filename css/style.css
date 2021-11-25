@@ -27,10 +27,6 @@
     height: 150px;
 }
 
-.nav-link:active .div-onclick{
-    display: block;
-}
-
 .play{
     display: inline-block;
 }
@@ -43,9 +39,16 @@
     background-image: url(../img/jumbo-bg.png);
     background-size: cover;
     background-position: top;
-    height: 600px;
 }
 
 .text img{
-    width: 30%;
+    width: 90%;
+}
+
+.height-100{
+    height: 100%;
+}
+
+.btn:hover{
+    border-style: inset 1px solid black;
 }
