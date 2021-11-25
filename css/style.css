@@ -66,10 +66,10 @@ li.dropdown:hover .dropdown-menu{
     left: 0;
 }
 
-.bright{
+.bright >img{
     filter: opacity(50%);
 }
 
-.bright:hover{
+.bright:hover>img{
     filter: opacity(100%);
 }
