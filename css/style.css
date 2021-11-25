@@ -82,3 +82,7 @@ li.dropdown:hover .dropdown-menu{
 .due{
     background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
 }
+
+.jumbo-mini-due{
+    background-color: rgb(29, 29, 29);
+}
