@@ -78,3 +78,7 @@ li.dropdown:hover .dropdown-menu{
 .assoluto-hover:hover{
     transform: translateY(-15px);
 }
+
+.due{
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+}
