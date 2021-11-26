@@ -62,7 +62,6 @@ img{
 
 li.dropdown:hover .dropdown-menu{
     display: block;
-    position:fixed;
     width: 100%;
     left: 0;
 }
