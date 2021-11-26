@@ -117,7 +117,7 @@ footer{
 
 .nav-item:hover .nav-icona::after{
     content: url(../img/chevron-down-solid-hover.svg);
-    width: 0.7rem;
+    width: 1rem;
     border:none;
     vertical-align: middle;
 }
