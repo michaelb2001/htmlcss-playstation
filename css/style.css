@@ -54,11 +54,9 @@ img{
 
 .height-100{
     height: 100%;
+
 }
 
-.btn:hover{
-    border-style: inset 1px solid black;
-}
 
 li.dropdown:hover .dropdown-menu{
     display: block;
