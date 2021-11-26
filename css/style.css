@@ -91,3 +91,6 @@ li.dropdown:hover .dropdown-menu{
     background-color: rgb(170, 170, 170);
 }
 
+.now{
+    background-color: rgb(0, 0, 49);
+}
