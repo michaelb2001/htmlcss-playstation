@@ -107,3 +107,25 @@ footer{
     color: white;
     text-decoration: none;
 }
+
+.nav-icona::after{
+    content: url(../img/chevron-down-solid.svg);
+    border:none;
+    vertical-align: middle;
+    color: rgb(170, 170, 170);
+    width: 1rem;
+    height: 1rem;
+}
+
+.nav-item:hover .nav-icona::after{
+    content: url(../img/chevron-down-solid-hover.svg);
+    width: 1rem;
+    height: 1rem;
+    border:none;
+    vertical-align: middle;
+}
+
+.nav-item:hover a,.nav-item:hover .nav-icona::after{
+    color: blue!important;
+}
+
