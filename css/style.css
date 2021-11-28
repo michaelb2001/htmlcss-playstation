@@ -140,3 +140,11 @@ footer{
     box-shadow: inset 0 0 0 2px blue;
     transition: ease-in-out 0.3s
 }
+
+
+@media screen and (max-width:991px){
+    .fa-search{
+        border: 1px solid black;
+        padding: 2px;
+    }
+}
