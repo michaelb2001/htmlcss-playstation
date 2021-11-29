@@ -142,22 +142,27 @@ footer{
     transition: ease-in-out 0.3s
 }
 
-.cerca{
-    background-image: url(../img/lens.svg);
-    background-size: 15px 15px;
-    background-position: left;
-    padding:2px;
-    border:none;
-    background-repeat: no-repeat;
+.nav-link img{
+    width: 15px;
+    height: 15px;
 }
-
 @media screen and (max-width:991px) {
     .cerca{
-        background-image: url(../img/lens.svg);
-        background-size: 15px 15px;
-        background-position:left;
         padding:2px;
         border: 2px solid black;
         background-repeat: no-repeat;
     }
+}
+
+
+.bg_ms_w{
+    background-color: #FFF;
+}
+
+.bg_ms_w:hover{
+    background-color: #FFF;
+}
+
+.seleziona:hover{
+    border: 5px solid black;
 }
