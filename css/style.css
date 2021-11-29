@@ -119,6 +119,7 @@ footer{
     content: url(../img/chevron-down-solid-hover.svg);
     width: 1rem;
     border:none;
+    transform: rotateX(180deg);
     vertical-align: middle;
 }
 
